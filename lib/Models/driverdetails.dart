@@ -1,0 +1,36 @@
+class DriverDetails {
+  String name,
+      email,
+      gender,
+      street,
+      city,
+      state,
+      pin,
+      cname,
+      cmodel,
+      ccolor,
+      type,
+      rno,
+      rating,
+      lno,
+      ano,
+      pno;
+
+  DriverDetails(
+      {this.name,
+      this.email,
+      this.street,
+      this.gender,
+      this.city,
+      this.state,
+      this.pin,
+      this.cname,
+      this.cmodel,
+      this.ccolor,
+      this.type,
+      this.ano,
+      this.lno,
+      this.pno,
+      this.rating,
+      this.rno});
+}
